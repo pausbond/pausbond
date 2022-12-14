@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="icon" href="public/favicon.ico" sizes="any" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <div class="content1">
+        <header class="header1">
+          <button class="pavel-bondarenko2">Pavel Bondarenko</button
+          ><button class="download-btn2" id="contact">
+            <div class="get-started1">Contact me</div>
+          </button>
+        </header>
+        <div class="bio1">
+          <div class="profile-info1">
+            <img
+              class="avatar-icon1"
+              alt="User Avatar"
+              id="avatar"
+              tabindex="0"
+              src="public/avatar@2x.png"
+            />
+            <div class="info1">
+              <div class="name3">
+                <h1 class="hi-im-pavel1" tabindex="0">Hi, I’m Pavel 👋</h1>
+                <p class="im-a-uxui-designer-welcome1" tabindex="0">
+                  I‘m a UX/UI Designer. Welcome to my portfolio.
+                </p>
+              </div>
+              <div class="social-icons3">
+                <button class="vk3" id="social_btn_vk">
+                  <img
+                    class="vector-icon7"
+                    alt="vkontakte"
+                    src="public/icon-vk1.svg"
+                  /></button
+                ><button class="vk3" id="social_btn_tg">
+                  <img
+                    class="vector-icon7"
+                    alt="telegram"
+                    src="public/icon-telega1.svg"
+                  /></button
+                ><button class="vk3" id="social_btn_in">
+                  <img
+                    class="vector-icon8"
+                    alt="linkedin"
+                    src="public/icon-in1.svg"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="frame-div">
+            <div class="profile-facts1">
+              <div class="experience-11">
+                <div class="years1">
+                  <h6 class="h64">7</h6>
+                  <label class="years-of-work-experience1" id="text"
+                    >Years of work experience</label
+                  >
+                </div>
+                <div class="years1">
+                  <h6 class="h64">12</h6>
+                  <label class="years-of-work-experience1" id="text"
+                    >Years in the largest retailer</label
+                  >
+                </div>
+              </div>
+              <div class="experience-11">
+                <div class="years1">
+                  <h6 class="h64">50+</h6>
+                  <label class="years-of-work-experience1" id="text"
+                    ><p class="completed1">Completed</p>
+                    <p class="projects1">projects</p></label
+                  >
+                </div>
+                <div class="projects-completed3">
+                  <h6 class="h64">100%</h6>
+                  <label class="years-of-work-experience1" id="text"
+                    >Passion</label
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="tabs1">
+              <button class="portfolio-btn1">
+                <p class="yearly2">Portfolio</p></button
+              ><button class="skills-btn" id="skillsBtn">
+                <p class="yearly3">See my resume</p>
+              </button>
+            </div>
+            <div class="works">
+              <div class="job-1">
+                <img
+                  class="case-1-icon"
+                  alt="kvartet_app"
+                  id="case_1"
+                  tabindex="0"
+                  src="public/kvartet_app@2x.png"
+                /><img
+                  class="case-2-icon"
+                  alt="dns_group"
+                  id="case_3"
+                  tabindex="0"
+                  src="public/dns_group@2x.png"
+                /><img
+                  class="case-2-icon"
+                  alt="videobox"
+                  id="case_5"
+                  tabindex="0"
+                  src="public/videobox@2x.png"
+                />
+              </div>
+              <div class="job-1">
+                <img
+                  class="case-4-icon"
+                  alt="insta_kids"
+                  id="case_2"
+                  tabindex="0"
+                  src="public/insta_kids@2x.png"
+                /><img
+                  class="case-1-icon"
+                  alt="kvartet_site"
+                  id="case_4"
+                  tabindex="0"
+                  src="public/kvartet_site@2x.png"
+                /><img
+                  class="case-1-icon"
+                  alt="tv_launch"
+                  id="case_6"
+                  tabindex="0"
+                  src="public/tv_launch@2x.png"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer1">
+          <p class="all-rigths-reserved1">
+            © Pavel Bondarenko. 2022 All rigths reserved
+          </p>
+          <div class="social-icons4">
+            <button class="vk3" id="social_btn_vk">
+              <img
+                class="vector-icon7"
+                alt="vkontakte"
+                src="public/icon-vk2.svg"
+              /></button
+            ><button class="vk3" id="social_btn_tg">
+              <img
+                class="vector-icon7"
+                alt="telegram"
+                src="public/icon-telega2.svg"
+              /></button
+            ><button class="vk3" id="social_btn_in">
+              <img
+                class="vector-icon8"
+                alt="linkedin"
+                src="public/icon-in2.svg"
+              />
+            </button>
+          </div>
+        </footer>
+      </div>
+    </main>
+
+    <div id="contactMePopup" class="popup-overlay" style="display: none">
+      <div class="contact-me" data-animate-on-scroll>
+        <div class="name">
+          <div class="name1">
+            <h2 class="pavel-bondarenko" tabindex="0">Pavel Bondarenko</h2>
+            <p class="uxui-designer" tabindex="0">UX/UI Designer</p>
+          </div>
+          <button class="icon-close" autofocus id="popupiconClose">
+            <img
+              class="icon-close1"
+              alt="icon-close"
+              src="public/icon-close.svg"
+            />
+          </button>
+        </div>
+        <div class="contacts" contacts>
+          <div class="email-tel">
+            <p class="pavelbond1ru" tabindex="0" id="popuppavelbond1ru">
+              pavel@bond1.ru
+            </p>
+            <p class="p" tabindex="0" id="popuptext">+7 (123) 456-78-90</p>
+          </div>
+          <div class="social-icons">
+            <button class="vk" id="social_btn_vk">
+              <img
+                class="vector-icon"
+                alt="vkontakte"
+                src="public/icon-vk.svg"
+              /></button
+            ><button class="tg" id="social_btn_tg">
+              <img
+                class="vector-icon"
+                alt="telegram"
+                src="public/icon-telega.svg"
+              /></button
+            ><button class="tg" id="social_btn_in">
+              <img
+                class="vector-icon1"
+                alt="linkedin"
+                src="public/icon-in.svg"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+                  var popupiconClose = document.getElementById("popupiconClose");
+                  if(popupiconClose) {
+                    popupiconClose.addEventListener("click", function (e) {
+                      var popup = e.currentTarget.parentNode;
+                      function isOverlay(node) {
+                        return !!(node && node.classList && node.classList.contains("popup-overlay"));
+                      }
+                      while(popup && !isOverlay(popup)) {
+                        popup = popup.parentNode;
+                      }
+                      if(isOverlay(popup)) {
+                        popup.style.display = "none";
+                      }
+                    });
+                  }
+
+
+                      const popuppavelbond1ru = document.getElementById("popuppavelbond1ru");
+                      if(popuppavelbond1ru) {
+                        popuppavelbond1ru.addEventListener("click", function () {
+                          window.location.href = "mailto:pavel@bond1.ru";
+                        });
+                      }
+
+                      const popuptext = document.getElementById("popuptext");
+                      if(popuptext) {
+                        popuptext.addEventListener("click", function () {
+                          window.location.href = "mailto:pavel@bond1.ru";
+                        });
+                      }
+
+                      var popupvk = document.getElementById("social_btn_vk");
+                      if(popupvk) {
+                        popupvk.addEventListener("click", function () {
+                          window.open("https://vk.com/pausb");
+                        });
+                      }
+
+                      var popuptg = document.getElementById("social_btn_tg");
+                      if(popuptg) {
+                        popuptg.addEventListener("click", function () {
+                          window.open("https://t.me/PausBond");
+                        });
+                      }
+
+                      var popupin = document.getElementById("social_btn_in");
+                      if(popupin) {
+                        popupin.addEventListener("click", function () {
+                          window.open("https://www.linkedin.com/in/pavel-bondarenko-5aa09756/");
+                        });
+                      }
+      var scrollAnimElements = document.querySelectorAll('[data-animate-on-scroll]');
+        var observer = new IntersectionObserver((entries) => {
+          for(const entry of entries) {
+            if (entry.isIntersecting || entry.intersectionRatio > 0) {
+              const targetElement = entry.target;
+              targetElement.classList.add("animate");
+              observer.unobserve(targetElement);
+            }
+          }
+        }, {
+          threshold: 0.15,
+        });
+
+        for (let i = 0; i < scrollAnimElements.length; i++) {
+          observer.observe(scrollAnimElements[i]);
+        }
+
+                var downloadBtn = document.getElementById("contact");
+                if(downloadBtn) {
+                  downloadBtn.addEventListener("click", function () {
+                    var popup = document.getElementById("contactMePopup");
+                    if(!popup) return;
+                    var popupStyle = popup.style;
+                    if(popupStyle) {
+                      popupStyle.display = "flex";
+                      popupStyle.zIndex = 100;
+                      popupStyle.backgroundColor = "rgba(10, 10, 10, 0.5)";
+                     popupStyle.alignItems = "center";
+                      popupStyle.justifyContent = "center";
+                    }
+                    popup.setAttribute("closable", "");
+
+                    var onClick = popup.onClick || function(e) {
+                      if(e.target === popup && popup.hasAttribute("closable")) {
+                        popupStyle.display = "none";
+                      }
+                    };
+                    popup.addEventListener("click", onClick);
+                  });
+                }
+
+                      var vk = document.getElementById("social_btn_vk");
+                      if(vk) {
+                        vk.addEventListener("click", function () {
+                          window.open("https://vk.com/pausb");
+                        });
+                      }
+
+                      var tg = document.getElementById("social_btn_tg");
+                      if(tg) {
+                        tg.addEventListener("click", function () {
+                          window.open("https://t.me/PausBond");
+                        });
+                      }
+
+                      var in = document.getElementById("social_btn_in");
+                      if(in) {
+                        in.addEventListener("click", function () {
+                          window.open("https://www.linkedin.com/in/pavel-bondarenko-5aa09756/");
+                        });
+                      }
+
+                var skillsBtn = document.getElementById("skillsBtn");
+                if(skillsBtn) {
+                  skillsBtn.addEventListener("click", function (e) {
+                    window.location.href = "./resume.html"
+                  });
+                }
+
+                      var case1Image = document.getElementById("case_1");
+                      if(case1Image) {
+                        case1Image.addEventListener("click", function () {
+                          window.open("https://www.behance.net/gallery/120329985/kvartet-vkusov-%28App%29");
+                        });
+                      }
+
+                      var case2Image = document.getElementById("case_3");
+                      if(case2Image) {
+                        case2Image.addEventListener("click", function () {
+                          window.open("https://www.behance.net/gallery/94455803/DNS-GROUP");
+                        });
+                      }
+
+                      var case3Image = document.getElementById("case_5");
+                      if(case3Image) {
+                        case3Image.addEventListener("click", function () {
+                          window.open("https://www.behance.net/gallery/89773927/HD-Videobox-app");
+                        });
+                      }
+
+                      var case4Image = document.getElementById("case_2");
+                      if(case4Image) {
+                        case4Image.addEventListener("click", function () {
+                          window.open("https://www.behance.net/gallery/116298143/Instagram-Kids-Concept");
+                        });
+                      }
+
+                      var case5Image = document.getElementById("case_4");
+                      if(case5Image) {
+                        case5Image.addEventListener("click", function () {
+                          window.open("https://www.behance.net/gallery/90478585/sajt-kvartet-vkusov");
+                        });
+                      }
+
+                      var case6Image = document.getElementById("case_6");
+                      if(case6Image) {
+                        case6Image.addEventListener("click", function () {
+                          window.open("https://www.behance.net/gallery/89467043/TV-Launcher-Concept");
+                        });
+                      }
+
+                      var vk1 = document.getElementById("social_btn_vk");
+                      if(vk1) {
+                        vk1.addEventListener("click", function () {
+                          window.open("https://vk.com/pausb");
+                        });
+                      }
+
+                      var tg1 = document.getElementById("social_btn_tg");
+                      if(tg1) {
+                        tg1.addEventListener("click", function () {
+                          window.open("https://t.me/PausBond");
+                        });
+                      }
+
+                      var in1 = document.getElementById("social_btn_in");
+                      if(in1) {
+                        in1.addEventListener("click", function () {
+                          window.open("https://www.linkedin.com/in/pavel-bondarenko-5aa09756/");
+                        });
+                      }
+    </script>
+  </body>
+</html>
