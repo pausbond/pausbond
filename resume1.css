@@ -10,24 +10,15 @@ body {
   margin: 0;
   line-height: normal;
 }
-.popup-overlay {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
-.get-started,
-.pavel-bondarenko1 {
+.get-started1,
+.pavel-bondarenko2 {
   position: relative;
   font-size: var(--font-size-sm);
   font-weight: 500;
   font-family: var(--font-poppins);
   display: inline-block;
 }
-.pavel-bondarenko1 {
+.pavel-bondarenko2 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -37,20 +28,20 @@ body {
   text-align: left;
   transition: 0.5s;
 }
-.pavel-bondarenko1:hover {
+.pavel-bondarenko2:hover {
   color: var(--color-gold);
 }
-.get-started {
+.get-started1 {
   letter-spacing: -0.53px;
   color: var(--color-gray-300);
   text-align: center;
 }
-.download-btn,
-.header {
+.download-btn1,
+.header1 {
   display: flex;
   align-items: center;
 }
-.download-btn {
+.download-btn1 {
   cursor: pointer;
   border: 0;
   padding: var(--padding-lg) var(--padding-sm);
@@ -62,39 +53,39 @@ body {
   justify-content: center;
   transition: 0.5s;
 }
-.download-btn:hover {
+.download-btn1:hover {
   background-color: var(--color-tan);
 }
-.header {
+.header1 {
   align-self: stretch;
   flex-direction: row;
   justify-content: flex-start;
   gap: var(--gap-3xs);
 }
-.avatar-icon {
+.avatar-icon1 {
   position: relative;
   width: 215px;
   height: 215px;
   flex-shrink: 0;
   object-fit: cover;
 }
-.hi-im-pavel,
-.im-a-uxui-designer-welcome {
+.hi-im-pavel1,
+.im-a-uxui-designer-welcome1 {
   margin: 0;
   align-self: stretch;
   position: relative;
   font-weight: 500;
   display: inline-block;
 }
-.hi-im-pavel {
+.hi-im-pavel1 {
   font-size: inherit;
   font-family: inherit;
 }
-.im-a-uxui-designer-welcome {
+.im-a-uxui-designer-welcome1 {
   font-size: var(--font-size-base);
   color: var(--color-gray-200);
 }
-.name2 {
+.name3 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -102,7 +93,7 @@ body {
   justify-content: flex-start;
   gap: var(--gap-4xs);
 }
-.vector-icon2 {
+.vector-icon6 {
   position: absolute;
   height: 83.33%;
   width: 83.33%;
@@ -114,7 +105,7 @@ body {
   overflow: hidden;
   max-height: 100%;
 }
-.vk1 {
+.vk3 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -126,10 +117,10 @@ body {
   overflow: hidden;
   transition: 0.5s;
 }
-.vk1:hover {
+.vk3:hover {
   opacity: 0.7;
 }
-.vector-icon3 {
+.vector-icon7 {
   position: absolute;
   height: 83.33%;
   width: 83.33%;
@@ -141,23 +132,23 @@ body {
   overflow: hidden;
   max-height: 100%;
 }
-.info,
-.social-icons1 {
+.info1,
+.social-icons3 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.social-icons1 {
+.social-icons3 {
   align-self: stretch;
   flex-direction: row;
   gap: var(--gap-lg);
 }
-.info {
+.info1 {
   flex: 1;
   flex-direction: column;
   gap: var(--gap-xs);
 }
-.profile-info {
+.profile-info1 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -165,45 +156,47 @@ body {
   justify-content: center;
   gap: var(--gap-2xl);
 }
-.h6,
-.years-of-work-experience {
+.h64,
+.years-of-work-experience1 {
   position: relative;
   font-weight: 500;
   display: inline-block;
 }
-.h6 {
+.h64 {
   margin: 0;
   font-size: inherit;
   font-family: inherit;
 }
-.years-of-work-experience {
+.years-of-work-experience1 {
   align-self: stretch;
   font-size: var(--font-size-base);
   text-align: center;
 }
-.experience-1,
-.years {
+.experience-11,
+.years1 {
   flex: 1;
   display: flex;
+}
+.years1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: var(--gap-0);
 }
-.experience-1 {
+.experience-11 {
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-xl);
 }
-.completed {
+.completed1 {
   margin-block-start: 0;
   margin-block-end: 0;
 }
-.projects {
+.projects1 {
   margin: 0;
 }
-.projects-completed1 {
+.projects-completed3 {
   flex: 1;
   height: 102px;
   display: flex;
@@ -212,7 +205,7 @@ body {
   justify-content: flex-start;
   gap: var(--gap-0);
 }
-.profile-facts {
+.profile-facts1 {
   align-self: stretch;
   overflow: hidden;
   display: flex;
@@ -221,7 +214,7 @@ body {
   justify-content: center;
   gap: var(--gap-md);
 }
-.yearly {
+.yearly2 {
   margin: 0;
   flex: 1;
   position: relative;
@@ -233,7 +226,7 @@ body {
   text-align: center;
   display: inline-block;
 }
-.portfolio-btn {
+.portfolio-btn1 {
   cursor: pointer;
   border: 0;
   padding: var(--padding-md) 0;
@@ -247,10 +240,10 @@ body {
   justify-content: flex-start;
   transition: 0.5s;
 }
-.portfolio-btn:hover {
+.portfolio-btn1:hover {
   background-color: var(--color-gray-400);
 }
-.yearly1 {
+.yearly3 {
   margin: 0;
   flex: 1;
   position: relative;
@@ -263,7 +256,7 @@ body {
   display: inline-block;
 }
 .resume-btn,
-.tabs {
+.tabs1 {
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
@@ -278,7 +271,7 @@ body {
   flex: 1;
   border-radius: var(--br-sm);
 }
-.tabs {
+.tabs1 {
   align-self: stretch;
   border-radius: var(--br-lg);
   background-color: var(--color-gray-500);
@@ -302,7 +295,7 @@ body {
   color: var(--color-gray-200);
   text-align: center;
 }
-.vector-icon4 {
+.vector-icon8 {
   position: absolute;
   height: 83.33%;
   width: 74.94%;
@@ -329,11 +322,11 @@ body {
   gap: var(--gap-2xs);
 }
 .about-me-text,
-.download-btn1 {
+.download-btn2 {
   display: flex;
   flex-direction: column;
 }
-.download-btn1 {
+.download-btn2 {
   cursor: pointer;
   border: 0;
   padding: var(--padding-lg) var(--padding-sm);
@@ -347,7 +340,7 @@ body {
   justify-content: center;
   transition: 0.5s;
 }
-.download-btn1:hover {
+.download-btn2:hover {
   background-color: #1f2a34;
 }
 .about-me-text {
@@ -425,19 +418,26 @@ body {
   font-weight: 500;
   display: inline-block;
 }
-.certificates-course,
+.certificates-course {
+  align-self: stretch;
+  display: flex;
+}
+.dac-list {
+  align-items: center;
+  justify-content: flex-start;
+}
 .dac-list,
 .ux-analyst {
   align-self: stretch;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
   gap: var(--gap-3xs);
 }
 .certificates-course,
 .ux-analyst {
   align-items: flex-start;
+}
+.ux-analyst {
   justify-content: center;
 }
 .certificates-course {
@@ -498,7 +498,7 @@ body {
   gap: var(--gap-xs);
 }
 .about,
-.bio,
+.bio1,
 .skills-tools {
   align-self: stretch;
   display: flex;
@@ -510,30 +510,30 @@ body {
   gap: var(--gap-xl);
   font-size: var(--font-size-xl);
 }
-.bio {
+.bio1 {
   gap: var(--gap-3xl);
 }
-.all-rigths-reserved {
+.all-rigths-reserved1 {
   margin: 0;
   flex: 1;
   position: relative;
   font-weight: 500;
   display: inline-block;
 }
-.social-icons2 {
+.social-icons4 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-lg);
 }
-.content,
-.footer,
+.content1,
+.footer1,
 .resume {
   display: flex;
   align-items: center;
 }
-.footer {
+.footer1 {
   align-self: stretch;
   flex-direction: row;
   justify-content: flex-start;
@@ -543,11 +543,11 @@ body {
   color: var(--color-gray-200);
   font-family: var(--font-poppins);
 }
-.content,
+.content1,
 .resume {
   flex-direction: column;
 }
-.content {
+.content1 {
   align-self: center;
   justify-content: flex-start;
   gap: var(--gap-4xl);
@@ -566,87 +566,87 @@ body {
   font-family: var(--font-poppins);
 }
 @media screen and (max-width: 428px) {
-  .pavel-bondarenko1 {
+  .pavel-bondarenko2 {
     text-align: left;
   }
-  .get-started,
-  .pavel-bondarenko1 {
+  .get-started1,
+  .pavel-bondarenko2 {
     font-size: var(--font-size-sm);
   }
-  .download-btn {
+  .download-btn1 {
     padding: var(--padding-2xs) var(--padding-sm);
     box-sizing: border-box;
     margin-bottom: -12px;
   }
-  .header {
+  .header1 {
     flex-direction: row;
     margin-bottom: -40px;
   }
-  .avatar-icon {
+  .avatar-icon1 {
     width: 123px;
     height: 123px;
     margin-bottom: -24px;
   }
-  .hi-im-pavel {
+  .hi-im-pavel1 {
     font-size: var(--font-size-2xl);
     text-align: center;
   }
-  .im-a-uxui-designer-welcome {
+  .im-a-uxui-designer-welcome1 {
     font-size: var(--font-size-xs);
     text-align: center;
   }
-  .vk1 {
+  .vk3 {
     width: 40px;
     height: 40px;
   }
-  .social-icons1 {
+  .social-icons3 {
     display: none;
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .info {
+  .info1 {
     flex: unset;
     align-self: stretch;
   }
-  .profile-info {
+  .profile-info1 {
     flex-direction: column;
   }
-  .h6 {
+  .h64 {
     font-size: var(--font-size-sm);
   }
-  .years-of-work-experience {
+  .years-of-work-experience1 {
     font-size: var(--font-size-xs);
   }
-  .experience-1 {
+  .experience-11 {
     flex: unset;
     align-self: stretch;
   }
-  .profile-facts {
+  .profile-facts1 {
     flex-direction: column;
     padding: 0 var(--padding-sm);
     box-sizing: border-box;
   }
-  .yearly {
+  .yearly2 {
     font-size: var(--font-size-sm);
   }
-  .portfolio-btn {
+  .portfolio-btn1 {
     padding-top: var(--padding-xs);
     padding-bottom: var(--padding-xs);
     box-sizing: border-box;
   }
-  .yearly1 {
+  .yearly3 {
     font-size: var(--font-size-sm);
   }
   .resume-btn,
-  .tabs {
+  .tabs1 {
     box-sizing: border-box;
   }
   .resume-btn {
     padding-top: var(--padding-xs);
     padding-bottom: var(--padding-xs);
   }
-  .tabs {
+  .tabs1 {
     padding: var(--padding-3xs);
   }
   .download-cv,
@@ -658,7 +658,7 @@ body {
     width: 20px;
     height: 20px;
   }
-  .download-btn1 {
+  .download-btn2 {
     padding: var(--padding-2xs) var(--padding-sm);
     box-sizing: border-box;
   }
@@ -697,19 +697,19 @@ body {
   .skill-list {
     flex-direction: column;
   }
-  .all-rigths-reserved {
+  .all-rigths-reserved1 {
     font-size: var(--font-size-sm);
     text-align: center;
     flex: unset;
     align-self: stretch;
   }
-  .social-icons2 {
+  .social-icons4 {
     display: flex;
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .footer {
+  .footer1 {
     flex-direction: column;
   }
   .resume {
@@ -731,21 +731,30 @@ body {
     height: 20px;
   }
 }
-.pavel-bondarenko,
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.pavel-bondarenko1,
 .uxui-designer {
   margin: 0;
   position: relative;
   font-weight: 500;
   display: inline-block;
 }
-.pavel-bondarenko {
+.pavel-bondarenko1 {
   font-size: inherit;
   font-family: inherit;
 }
 .uxui-designer {
   font-size: var(--font-size-sm);
 }
-.name1 {
+.name2 {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -780,7 +789,7 @@ body {
   cursor: pointer;
   opacity: 70%;
 }
-.name {
+.name1 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -812,7 +821,7 @@ body {
   justify-content: flex-end;
   gap: var(--gap-xs);
 }
-.vector-icon {
+.vector-icon4 {
   position: absolute;
   height: 83.33%;
   width: 83.33%;
@@ -824,8 +833,8 @@ body {
   overflow: hidden;
   max-height: 100%;
 }
-.tg,
-.vk {
+.tg2,
+.vk2 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -836,11 +845,11 @@ body {
   flex-shrink: 0;
   overflow: hidden;
 }
-.tg:hover,
-.vk:hover {
+.tg2:hover,
+.vk2:hover {
   opacity: 0.7;
 }
-.vector-icon1 {
+.vector-icon5 {
   position: absolute;
   height: 83.33%;
   width: 83.33%;
@@ -853,13 +862,13 @@ body {
   max-height: 100%;
 }
 .contacts,
-.social-icons {
+.social-icons2 {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   gap: var(--gap-2xs);
 }
-.social-icons {
+.social-icons2 {
   flex: 1;
   justify-content: flex-end;
 }
@@ -899,13 +908,13 @@ body {
   animation: 0.5s ease 0s 1 normal forwards scale-up;
 }
 @media screen and (max-width: 428px) {
-  .pavel-bondarenko {
+  .pavel-bondarenko1 {
     font-size: var(--font-size-lg);
   }
   .uxui-designer {
     font-size: var(--font-size-sm);
   }
-  .name1 {
+  .name2 {
     margin-bottom: -20px;
   }
   .email-tel {
@@ -913,15 +922,15 @@ body {
     flex: unset;
     align-self: stretch;
   }
-  .tg,
-  .vk {
+  .tg2,
+  .vk2 {
     width: 36px;
     height: 36px;
   }
-  .tg {
+  .tg2 {
     margin-left: 12px;
   }
-  .social-icons {
+  .social-icons2 {
     display: inline;
     flex: unset;
     align-self: stretch;

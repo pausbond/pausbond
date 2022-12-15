@@ -10,24 +10,15 @@ body {
   margin: 0;
   line-height: normal;
 }
-.popup-overlay {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
-.get-started1,
-.pavel-bondarenko2 {
+.get-started,
+.pavel-bondarenko {
   position: relative;
   font-size: var(--font-size-sm);
   font-weight: 500;
   font-family: var(--font-poppins);
   display: inline-block;
 }
-.pavel-bondarenko2 {
+.pavel-bondarenko {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -37,20 +28,20 @@ body {
   text-align: left;
   transition: 0.5s;
 }
-.pavel-bondarenko2:hover {
+.pavel-bondarenko:hover {
   color: var(--color-gold);
 }
-.get-started1 {
+.get-started {
   letter-spacing: -0.53px;
   color: var(--color-gray-300);
   text-align: center;
 }
-.download-btn2,
-.header1 {
+.download-btn,
+.header {
   display: flex;
   align-items: center;
 }
-.download-btn2 {
+.download-btn {
   cursor: pointer;
   border: 0;
   padding: var(--padding-lg) var(--padding-sm);
@@ -62,39 +53,39 @@ body {
   justify-content: center;
   transition: 0.5s;
 }
-.download-btn2:hover {
+.download-btn:hover {
   background-color: var(--color-tan);
 }
-.header1 {
+.header {
   align-self: stretch;
   flex-direction: row;
   justify-content: flex-start;
   gap: var(--gap-3xs);
 }
-.avatar-icon1 {
+.avatar-icon {
   position: relative;
   width: 215px;
   height: 215px;
   flex-shrink: 0;
   object-fit: cover;
 }
-.hi-im-pavel1,
-.im-a-uxui-designer-welcome1 {
+.hi-im-pavel,
+.im-a-uxui-designer-welcome {
   margin: 0;
   align-self: stretch;
   position: relative;
   font-weight: 500;
   display: inline-block;
 }
-.hi-im-pavel1 {
+.hi-im-pavel {
   font-size: inherit;
   font-family: inherit;
 }
-.im-a-uxui-designer-welcome1 {
+.im-a-uxui-designer-welcome {
   font-size: var(--font-size-base);
   color: var(--color-gray-200);
 }
-.name3 {
+.name {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -102,7 +93,7 @@ body {
   justify-content: flex-start;
   gap: var(--gap-4xs);
 }
-.vector-icon7 {
+.vector-icon {
   position: absolute;
   height: 83.33%;
   width: 83.33%;
@@ -114,7 +105,7 @@ body {
   overflow: hidden;
   max-height: 100%;
 }
-.vk3 {
+.vk {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -126,10 +117,10 @@ body {
   overflow: hidden;
   transition: 0.5s;
 }
-.vk3:hover {
+.vk:hover {
   opacity: 0.7;
 }
-.vector-icon8 {
+.vector-icon1 {
   position: absolute;
   height: 83.33%;
   width: 83.33%;
@@ -141,23 +132,23 @@ body {
   overflow: hidden;
   max-height: 100%;
 }
-.info1,
-.social-icons3 {
+.info,
+.social-icons {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.social-icons3 {
+.social-icons {
   align-self: stretch;
   flex-direction: row;
   gap: var(--gap-lg);
 }
-.info1 {
+.info {
   flex: 1;
   flex-direction: column;
   gap: var(--gap-xs);
 }
-.profile-info1 {
+.profile-info {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -165,45 +156,47 @@ body {
   justify-content: center;
   gap: var(--gap-2xl);
 }
-.h64,
-.years-of-work-experience1 {
+.h6,
+.years-of-work-experience {
   position: relative;
   font-weight: 500;
   display: inline-block;
 }
-.h64 {
+.h6 {
   margin: 0;
   font-size: inherit;
   font-family: inherit;
 }
-.years-of-work-experience1 {
+.years-of-work-experience {
   align-self: stretch;
   font-size: var(--font-size-base);
   text-align: center;
 }
-.experience-11,
-.years1 {
+.experience-1,
+.years {
   flex: 1;
   display: flex;
+}
+.years {
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: var(--gap-0);
 }
-.experience-11 {
+.experience-1 {
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-xl);
 }
-.completed1 {
+.completed {
   margin-block-start: 0;
   margin-block-end: 0;
 }
-.projects1 {
+.projects {
   margin: 0;
 }
-.projects-completed3 {
+.projects-completed1 {
   flex: 1;
   height: 102px;
   display: flex;
@@ -212,7 +205,7 @@ body {
   justify-content: flex-start;
   gap: var(--gap-0);
 }
-.profile-facts1 {
+.profile-facts {
   align-self: stretch;
   overflow: hidden;
   display: flex;
@@ -221,7 +214,7 @@ body {
   justify-content: center;
   gap: var(--gap-md);
 }
-.yearly2 {
+.yearly {
   margin: 0;
   flex: 1;
   position: relative;
@@ -233,7 +226,7 @@ body {
   text-align: center;
   display: inline-block;
 }
-.portfolio-btn1 {
+.portfolio-btn {
   cursor: auto;
   border: 0;
   padding: var(--padding-md) 0;
@@ -246,7 +239,7 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
 }
-.yearly3 {
+.yearly1 {
   margin: 0;
   flex: 1;
   position: relative;
@@ -259,7 +252,7 @@ body {
   display: inline-block;
 }
 .skills-btn,
-.tabs1 {
+.tabs {
   background-color: var(--color-gray-500);
   display: flex;
   flex-direction: row;
@@ -278,7 +271,7 @@ body {
 .skills-btn:hover {
   background-color: var(--color-gray-400);
 }
-.tabs1 {
+.tabs {
   align-self: stretch;
   border-radius: var(--br-lg);
   padding: var(--padding-sm);
@@ -333,7 +326,7 @@ body {
 .case-4-icon:hover {
   height: 226px;
 }
-.bio1,
+.bio,
 .frame-div,
 .works {
   align-self: stretch;
@@ -345,7 +338,7 @@ body {
   justify-content: center;
   gap: var(--gap-xl);
 }
-.bio1,
+.bio,
 .frame-div {
   flex-direction: column;
   justify-content: flex-start;
@@ -355,31 +348,31 @@ body {
   gap: var(--gap-xl);
   font-size: var(--font-size-xl);
 }
-.bio1 {
+.bio {
   align-items: center;
   gap: var(--gap-3xl);
 }
-.all-rigths-reserved1 {
+.all-rigths-reserved {
   margin: 0;
   flex: 1;
   position: relative;
   font-weight: 500;
   display: inline-block;
 }
-.social-icons4 {
+.social-icons1 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-lg);
 }
-.content1,
-.footer1,
+.content,
+.footer,
 .main {
   display: flex;
   align-items: center;
 }
-.footer1 {
+.footer {
   align-self: stretch;
   flex-direction: row;
   justify-content: flex-start;
@@ -389,11 +382,11 @@ body {
   color: var(--color-gray-200);
   font-family: var(--font-poppins);
 }
-.content1,
+.content,
 .main {
   flex-direction: column;
 }
-.content1 {
+.content {
   align-self: center;
   justify-content: flex-start;
   gap: var(--gap-4xl);
@@ -412,87 +405,87 @@ body {
   font-family: var(--font-poppins);
 }
 @media screen and (max-width: 428px) {
-  .pavel-bondarenko2 {
+  .pavel-bondarenko {
     text-align: left;
   }
-  .get-started1,
-  .pavel-bondarenko2 {
+  .get-started,
+  .pavel-bondarenko {
     font-size: var(--font-size-sm);
   }
-  .download-btn2 {
+  .download-btn {
     padding: var(--padding-2xs) var(--padding-sm);
     box-sizing: border-box;
     margin-bottom: -12px;
   }
-  .header1 {
+  .header {
     flex-direction: row;
     margin-bottom: -40px;
   }
-  .avatar-icon1 {
+  .avatar-icon {
     width: 123px;
     height: 123px;
     margin-bottom: -24px;
   }
-  .hi-im-pavel1 {
+  .hi-im-pavel {
     font-size: var(--font-size-2xl);
     text-align: center;
   }
-  .im-a-uxui-designer-welcome1 {
+  .im-a-uxui-designer-welcome {
     font-size: var(--font-size-xs);
     text-align: center;
   }
-  .vk3 {
+  .vk {
     width: 40px;
     height: 40px;
   }
-  .social-icons3 {
+  .social-icons {
     display: none;
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .info1 {
+  .info {
     flex: unset;
     align-self: stretch;
   }
-  .profile-info1 {
+  .profile-info {
     flex-direction: column;
   }
-  .h64 {
+  .h6 {
     font-size: var(--font-size-sm);
   }
-  .years-of-work-experience1 {
+  .years-of-work-experience {
     font-size: var(--font-size-xs);
   }
-  .experience-11 {
+  .experience-1 {
     flex: unset;
     align-self: stretch;
   }
-  .profile-facts1 {
+  .profile-facts {
     flex-direction: column;
     padding: 0 var(--padding-sm);
     box-sizing: border-box;
   }
-  .yearly2 {
+  .yearly {
     font-size: var(--font-size-sm);
   }
-  .portfolio-btn1 {
+  .portfolio-btn {
     padding-top: var(--padding-xs);
     padding-bottom: var(--padding-xs);
     box-sizing: border-box;
   }
-  .yearly3 {
+  .yearly1 {
     font-size: var(--font-size-sm);
   }
   .skills-btn,
-  .tabs1 {
+  .tabs {
     box-sizing: border-box;
   }
   .skills-btn {
     padding-top: var(--padding-xs);
     padding-bottom: var(--padding-xs);
   }
-  .tabs1 {
+  .tabs {
     padding: var(--padding-3xs);
     margin-top: -32px;
   }
@@ -504,20 +497,20 @@ body {
   .works {
     flex-direction: column;
   }
-  .all-rigths-reserved1 {
+  .all-rigths-reserved {
     font-size: var(--font-size-sm);
     text-align: center;
     padding-bottom: var(--padding-sm);
     flex: unset;
     align-self: stretch;
   }
-  .social-icons4 {
+  .social-icons1 {
     display: flex;
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .footer1 {
+  .footer {
     flex-direction: column;
   }
   .main {
@@ -525,21 +518,30 @@ body {
     box-sizing: border-box;
   }
 }
-.pavel-bondarenko,
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.pavel-bondarenko1,
 .uxui-designer {
   margin: 0;
   position: relative;
   font-weight: 500;
   display: inline-block;
 }
-.pavel-bondarenko {
+.pavel-bondarenko1 {
   font-size: inherit;
   font-family: inherit;
 }
 .uxui-designer {
   font-size: var(--font-size-sm);
 }
-.name1 {
+.name2 {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -574,7 +576,7 @@ body {
   cursor: pointer;
   opacity: 70%;
 }
-.name {
+.name1 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -606,7 +608,7 @@ body {
   justify-content: flex-end;
   gap: var(--gap-xs);
 }
-.vector-icon {
+.vector-icon4 {
   position: absolute;
   height: 83.33%;
   width: 83.33%;
@@ -618,8 +620,8 @@ body {
   overflow: hidden;
   max-height: 100%;
 }
-.tg,
-.vk {
+.tg2,
+.vk2 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -630,11 +632,11 @@ body {
   flex-shrink: 0;
   overflow: hidden;
 }
-.tg:hover,
-.vk:hover {
+.tg2:hover,
+.vk2:hover {
   opacity: 0.7;
 }
-.vector-icon1 {
+.vector-icon5 {
   position: absolute;
   height: 83.33%;
   width: 83.33%;
@@ -647,13 +649,13 @@ body {
   max-height: 100%;
 }
 .contacts,
-.social-icons {
+.social-icons2 {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   gap: var(--gap-2xs);
 }
-.social-icons {
+.social-icons2 {
   flex: 1;
   justify-content: flex-end;
 }
@@ -693,13 +695,13 @@ body {
   animation: 0.5s ease 0s 1 normal forwards scale-up;
 }
 @media screen and (max-width: 428px) {
-  .pavel-bondarenko {
+  .pavel-bondarenko1 {
     font-size: var(--font-size-lg);
   }
   .uxui-designer {
     font-size: var(--font-size-sm);
   }
-  .name1 {
+  .name2 {
     margin-bottom: -20px;
   }
   .email-tel {
@@ -707,15 +709,15 @@ body {
     flex: unset;
     align-self: stretch;
   }
-  .tg,
-  .vk {
+  .tg2,
+  .vk2 {
     width: 36px;
     height: 36px;
   }
-  .tg {
+  .tg2 {
     margin-left: 12px;
   }
-  .social-icons {
+  .social-icons2 {
     display: inline;
     flex: unset;
     align-self: stretch;

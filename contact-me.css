@@ -10,21 +10,30 @@ body {
   margin: 0;
   line-height: normal;
 }
-.pavel-bondarenko,
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.pavel-bondarenko1,
 .uxui-designer {
   margin: 0;
   position: relative;
   font-weight: 500;
   display: inline-block;
 }
-.pavel-bondarenko {
+.pavel-bondarenko1 {
   font-size: inherit;
   font-family: inherit;
 }
 .uxui-designer {
   font-size: var(--font-size-sm);
 }
-.name1 {
+.name2 {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -59,7 +68,7 @@ body {
   cursor: pointer;
   opacity: 70%;
 }
-.name {
+.name1 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -91,7 +100,7 @@ body {
   justify-content: flex-end;
   gap: var(--gap-xs);
 }
-.vector-icon {
+.vector-icon4 {
   position: absolute;
   height: 83.33%;
   width: 83.33%;
@@ -103,8 +112,8 @@ body {
   overflow: hidden;
   max-height: 100%;
 }
-.tg,
-.vk {
+.tg2,
+.vk2 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -115,11 +124,11 @@ body {
   flex-shrink: 0;
   overflow: hidden;
 }
-.tg:hover,
-.vk:hover {
+.tg2:hover,
+.vk2:hover {
   opacity: 0.7;
 }
-.vector-icon1 {
+.vector-icon5 {
   position: absolute;
   height: 83.33%;
   width: 83.33%;
@@ -132,13 +141,13 @@ body {
   max-height: 100%;
 }
 .contacts,
-.social-icons {
+.social-icons2 {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   gap: var(--gap-2xs);
 }
-.social-icons {
+.social-icons2 {
   flex: 1;
   justify-content: flex-end;
 }
@@ -178,13 +187,13 @@ body {
   animation: 0.5s ease 0s 1 normal forwards scale-up;
 }
 @media screen and (max-width: 428px) {
-  .pavel-bondarenko {
+  .pavel-bondarenko1 {
     font-size: var(--font-size-lg);
   }
   .uxui-designer {
     font-size: var(--font-size-sm);
   }
-  .name1 {
+  .name2 {
     margin-bottom: -20px;
   }
   .email-tel {
@@ -192,15 +201,15 @@ body {
     flex: unset;
     align-self: stretch;
   }
-  .tg,
-  .vk {
+  .tg2,
+  .vk2 {
     width: 36px;
     height: 36px;
   }
-  .tg {
+  .tg2 {
     margin-left: 12px;
   }
-  .social-icons {
+  .social-icons2 {
     display: inline;
     flex: unset;
     align-self: stretch;

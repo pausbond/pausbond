@@ -14,9 +14,9 @@
   </head>
   <body>
     <div class="contact-me" data-animate-on-scroll>
-      <div class="name">
-        <div class="name1">
-          <h2 class="pavel-bondarenko" tabindex="0">Pavel Bondarenko</h2>
+      <div class="name1">
+        <div class="name2">
+          <h2 class="pavel-bondarenko1" tabindex="0">Pavel Bondarenko</h2>
           <p class="uxui-designer" tabindex="0">UX/UI Designer</p>
         </div>
         <button class="icon-close" autofocus id="popupiconClose">
@@ -34,21 +34,25 @@
           </p>
           <p class="p" tabindex="0" id="popuptext">+7 (123) 456-78-90</p>
         </div>
-        <div class="social-icons">
-          <button class="vk" id="social_btn_vk">
+        <div class="social-icons2">
+          <button class="vk2" id="popupvk">
             <img
-              class="vector-icon"
+              class="vector-icon4"
               alt="vkontakte"
-              src="public/icon-vk.svg"
+              src="public/icon-vk2.svg"
             /></button
-          ><button class="tg" id="social_btn_tg">
+          ><button class="tg2" id="popuptg">
             <img
-              class="vector-icon"
+              class="vector-icon4"
               alt="telegram"
-              src="public/icon-telega.svg"
+              src="public/icon-telega2.svg"
             /></button
-          ><button class="tg" id="social_btn_in">
-            <img class="vector-icon1" alt="linkedin" src="public/icon-in.svg" />
+          ><button class="tg2" id="popuplinkedin">
+            <img
+              class="vector-icon5"
+              alt="linkedin"
+              src="public/icon-in2.svg"
+            />
           </button>
         </div>
       </div>
@@ -89,23 +93,23 @@
         });
       }
       
-      var popupvk = document.getElementById("social_btn_vk");
+      var popupvk = document.getElementById("popupvk");
       if (popupvk) {
         popupvk.addEventListener("click", function () {
           window.open("https://vk.com/pausb");
         });
       }
       
-      var popuptg = document.getElementById("social_btn_tg");
+      var popuptg = document.getElementById("popuptg");
       if (popuptg) {
         popuptg.addEventListener("click", function () {
           window.open("https://t.me/PausBond");
         });
       }
       
-      var popupin = document.getElementById("social_btn_in");
-      if (popupin) {
-        popupin.addEventListener("click", function () {
+      var popuplinkedin = document.getElementById("popuplinkedin");
+      if (popuplinkedin) {
+        popuplinkedin.addEventListener("click", function () {
           window.open("https://www.linkedin.com/in/pavel-bondarenko-5aa09756/");
         });
       }
