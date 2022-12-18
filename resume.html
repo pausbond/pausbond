@@ -16,7 +16,7 @@
     <main class="resume">
       <div class="content1">
         <header class="header1">
-          <button class="pavel-bondarenko2">Pavel Bondarenko</button
+          <a class="pavel-bondarenko2" href="pavelbond.ru">Pavel Bondarenko</a
           ><button class="download-btn1" id="contact">
             <div class="get-started1">Contact me</div>
           </button>
@@ -109,7 +109,7 @@
                 them. Every platform requires a unique set of skills, but the
                 principles are the same: beauty, simplicity and ease of use.
               </p>
-              <button class="download-btn2" id="contact">
+              <button class="download-btn2" id="downloadBtn1">
                 <div class="title-btn">
                   <div class="download-cv">Download CV</div>
                   <div class="arrows-bottom-alignment" id="icon-download">
@@ -220,7 +220,7 @@
                 </div>
                 <div class="rus">
                   <img class="ellipse-icon" alt="" src="public/ellipse-4.svg" />
-                  <p class="d-modeling">English (A1)</p>
+                  <p class="russian-native-speaker">English (A1)</p>
                 </div>
               </div>
             </div>
@@ -229,15 +229,15 @@
               <div class="certificates-course">
                 <div class="rus">
                   <img class="ellipse-icon" alt="" src="public/ellipse-4.svg" />
-                  <p class="d-modeling">3D modeling</p>
+                  <p class="russian-native-speaker">3D modeling</p>
                 </div>
                 <div class="rus">
                   <img class="ellipse-icon" alt="" src="public/ellipse-4.svg" />
-                  <p class="d-modeling">Games</p>
+                  <p class="russian-native-speaker">Games</p>
                 </div>
                 <div class="rus">
                   <img class="ellipse-icon" alt="" src="public/ellipse-4.svg" />
-                  <p class="d-modeling">Books</p>
+                  <p class="russian-native-speaker">Books</p>
                 </div>
               </div>
             </div>
@@ -251,7 +251,7 @@
                       alt=""
                       src="public/ellipse-4.svg"
                     />
-                    <p class="d-modeling">Purposefulness</p>
+                    <p class="russian-native-speaker">Purposefulness</p>
                   </div>
                   <div class="rus">
                     <img
@@ -259,7 +259,7 @@
                       alt=""
                       src="public/ellipse-4.svg"
                     />
-                    <p class="d-modeling">Creativity</p>
+                    <p class="russian-native-speaker">Creativity</p>
                   </div>
                   <div class="rus">
                     <img
@@ -267,7 +267,7 @@
                       alt=""
                       src="public/ellipse-4.svg"
                     />
-                    <p class="d-modeling">Learnability</p>
+                    <p class="russian-native-speaker">Learnability</p>
                   </div>
                   <div class="rus">
                     <img
@@ -275,7 +275,7 @@
                       alt=""
                       src="public/ellipse-4.svg"
                     />
-                    <p class="d-modeling">Responsibility</p>
+                    <p class="russian-native-speaker">Responsibility</p>
                   </div>
                   <div class="rus">
                     <img
@@ -283,7 +283,7 @@
                       alt=""
                       src="public/ellipse-4.svg"
                     />
-                    <p class="d-modeling">Teamwork</p>
+                    <p class="russian-native-speaker">Teamwork</p>
                   </div>
                   <div class="rus">
                     <img
@@ -291,7 +291,7 @@
                       alt=""
                       src="public/ellipse-4.svg"
                     />
-                    <p class="d-modeling">Team Management</p>
+                    <p class="russian-native-speaker">Team Management</p>
                   </div>
                 </div>
                 <div class="skills">
@@ -301,7 +301,7 @@
                       alt=""
                       src="public/ellipse-4.svg"
                     />
-                    <p class="d-modeling">Adobe Creative Suite</p>
+                    <p class="russian-native-speaker">Adobe Creative Suite</p>
                   </div>
                   <div class="rus">
                     <img
@@ -309,7 +309,7 @@
                       alt=""
                       src="public/ellipse-4.svg"
                     />
-                    <p class="d-modeling">Figma</p>
+                    <p class="russian-native-speaker">Figma</p>
                   </div>
                   <div class="rus">
                     <img
@@ -317,7 +317,7 @@
                       alt=""
                       src="public/ellipse-4.svg"
                     />
-                    <p class="d-modeling">Blender</p>
+                    <p class="russian-native-speaker">Blender</p>
                   </div>
                   <div class="rus">
                     <img
@@ -325,7 +325,7 @@
                       alt=""
                       src="public/ellipse-4.svg"
                     />
-                    <p class="d-modeling">Substanse 3D Painter</p>
+                    <p class="russian-native-speaker">Substanse 3D Painter</p>
                   </div>
                   <div class="rus">
                     <img
@@ -333,7 +333,7 @@
                       alt=""
                       src="public/ellipse-4.svg"
                     />
-                    <p class="d-modeling">ProtoPie</p>
+                    <p class="russian-native-speaker">ProtoPie</p>
                   </div>
                   <div class="rus">
                     <img
@@ -341,7 +341,7 @@
                       alt=""
                       src="public/ellipse-4.svg"
                     />
-                    <p class="d-modeling">Rive</p>
+                    <p class="russian-native-speaker">Rive</p>
                   </div>
                 </div>
               </div>
@@ -566,29 +566,10 @@
         });
       }
       
-      var downloadBtn1 = document.getElementById("contact");
+      var downloadBtn1 = document.getElementById("downloadBtn1");
       if (downloadBtn1) {
         downloadBtn1.addEventListener("click", function () {
-          var popup = document.getElementById("contactMePopup");
-          if (!popup) return;
-          var popupStyle = popup.style;
-          if (popupStyle) {
-            popupStyle.display = "flex";
-            popupStyle.zIndex = 100;
-            popupStyle.backgroundColor = "rgba(10, 10, 10, 0.5)";
-            popupStyle.alignItems = "center";
-            popupStyle.justifyContent = "center";
-          }
-          popup.setAttribute("closable", "");
-      
-          var onClick =
-            popup.onClick ||
-            function (e) {
-              if (e.target === popup && popup.hasAttribute("closable")) {
-                popupStyle.display = "none";
-              }
-            };
-          popup.addEventListener("click", onClick);
+          window.open("https://github.com/pausbond/pausbond/raw/main/resume.pdf");
         });
       }
       

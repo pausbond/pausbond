@@ -13,26 +13,22 @@ body {
 .get-started,
 .pavel-bondarenko {
   position: relative;
-  font-size: var(--font-size-sm);
   font-weight: 500;
-  font-family: var(--font-poppins);
   display: inline-block;
 }
 .pavel-bondarenko {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
+  text-decoration: none;
   flex: 1;
-  color: var(--color-gray-200);
-  text-align: left;
+  color: inherit;
   transition: 0.5s;
 }
 .pavel-bondarenko:hover {
   color: var(--color-gold);
 }
 .get-started {
+  font-size: var(--font-size-sm);
   letter-spacing: -0.53px;
+  font-family: var(--font-poppins);
   color: var(--color-gray-300);
   text-align: center;
 }
@@ -61,6 +57,10 @@ body {
   flex-direction: row;
   justify-content: flex-start;
   gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-200);
+  font-family: var(--font-poppins);
 }
 .avatar-icon {
   position: relative;
@@ -176,8 +176,6 @@ body {
 .years {
   flex: 1;
   display: flex;
-}
-.years {
   flex-direction: column;
   align-items: center;
   justify-content: center;

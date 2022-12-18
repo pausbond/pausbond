@@ -13,26 +13,22 @@ body {
 .get-started1,
 .pavel-bondarenko2 {
   position: relative;
-  font-size: var(--font-size-sm);
   font-weight: 500;
-  font-family: var(--font-poppins);
   display: inline-block;
 }
 .pavel-bondarenko2 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
+  text-decoration: none;
   flex: 1;
-  color: var(--color-gray-200);
-  text-align: left;
+  color: inherit;
   transition: 0.5s;
 }
 .pavel-bondarenko2:hover {
   color: var(--color-gold);
 }
 .get-started1 {
+  font-size: var(--font-size-sm);
   letter-spacing: -0.53px;
+  font-family: var(--font-poppins);
   color: var(--color-gray-300);
   text-align: center;
 }
@@ -61,6 +57,10 @@ body {
   flex-direction: row;
   justify-content: flex-start;
   gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-200);
+  font-family: var(--font-poppins);
 }
 .avatar-icon1 {
   position: relative;
@@ -176,8 +176,6 @@ body {
 .years1 {
   flex: 1;
   display: flex;
-}
-.years1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -418,26 +416,19 @@ body {
   font-weight: 500;
   display: inline-block;
 }
-.certificates-course {
-  align-self: stretch;
-  display: flex;
-}
-.dac-list {
-  align-items: center;
-  justify-content: flex-start;
-}
+.certificates-course,
 .dac-list,
 .ux-analyst {
   align-self: stretch;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
   gap: var(--gap-3xs);
 }
 .certificates-course,
 .ux-analyst {
   align-items: flex-start;
-}
-.ux-analyst {
   justify-content: center;
 }
 .certificates-course {
@@ -465,17 +456,13 @@ body {
   justify-content: flex-start;
   gap: var(--gap-2xs);
 }
-.d-modeling,
 .skillstools {
   margin: 0;
   position: relative;
-  font-weight: 500;
-  display: inline-block;
-}
-.skillstools {
   font-size: inherit;
   font-weight: 700;
   font-family: inherit;
+  display: inline-block;
 }
 .skill-list,
 .skills {
@@ -648,6 +635,7 @@ body {
   }
   .tabs1 {
     padding: var(--padding-3xs);
+    margin-top: -32px;
   }
   .download-cv,
   .i-specialize-in-creating-engag {
@@ -688,7 +676,7 @@ body {
     flex-direction: column;
   }
   .russian-native-speaker {
-    font-size: var(--font-size-base);
+    font-size: var(--font-size-sm);
   }
   .skills {
     flex: unset;
@@ -700,6 +688,7 @@ body {
   .all-rigths-reserved1 {
     font-size: var(--font-size-sm);
     text-align: center;
+    padding-bottom: var(--padding-sm);
     flex: unset;
     align-self: stretch;
   }
