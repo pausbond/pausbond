@@ -478,7 +478,7 @@ body {
 .skill-list {
   align-self: stretch;
   flex-direction: row;
-  gap: 50px;
+  gap: var(--gap-2xs);
   font-size: var(--font-size-base);
 }
 .skills-tools {
