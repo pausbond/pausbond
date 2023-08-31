@@ -196,6 +196,10 @@ label:hover {
   justify-content: center;
   gap: var(--gap-2xl);
 }
+.video-ava {
+  border-radius: 110px;
+}
+
 .h6,
 .years-of-work-experience {
   position: relative;
