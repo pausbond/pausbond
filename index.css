@@ -198,6 +198,7 @@ label:hover {
 }
 .video-ava {
   border-radius: 110px;
+  cursor: pointer;
 }
 
 .h6,
