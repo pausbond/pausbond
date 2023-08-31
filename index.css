@@ -199,6 +199,11 @@ label:hover {
 .video-ava {
   border-radius: 110px;
   cursor: pointer;
+  transition: 0.3s;
+}
+.video-ava:hover {
+  opacity: 0.8;
+  
 }
 
 .h6,
