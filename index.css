@@ -195,6 +195,7 @@ label:hover {
   align-items: center;
   justify-content: center;
   gap: var(--gap-2xl);
+  position: relative;
 }
 .video-ava {
   border-radius: 110px;
@@ -202,10 +203,20 @@ label:hover {
   transition: 0.3s;
 }
 .video-ava:hover {
-  opacity: 0.8;
-  
+  opacity: 1; 
 }
-
+.ava-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  cursor: pointer;
+  transition: 0.2s; 
+}
+.ava-img:hover {
+  opacity: 0;
+  transition: 0.5s; 
+}
 .h6,
 .years-of-work-experience {
   position: relative;
