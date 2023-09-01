@@ -453,6 +453,9 @@ label:hover {
   .bio {
     gap: 24px;
   }
+  .ava-img {
+    left:auto
+  }
   .skill-list {
     flex-direction: column;
   }
