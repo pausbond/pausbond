@@ -185,6 +185,34 @@ if (case6Image) {
 	});
 }
 
+var case6Image = document.getElementById("case_7");
+if (case6Image) {
+	case6Image.addEventListener("click", function () {
+		window.open("https://dribbble.com/shots/22847486-My-To-Do-App");
+	});
+}
+
+var case6Image = document.getElementById("case_8");
+if (case6Image) {
+	case6Image.addEventListener("click", function () {
+		window.open("https://dribbble.com/shots/22850350-CaravanCar-Landing-Page");
+	});
+}
+
+var case6Image = document.getElementById("case_9");
+if (case6Image) {
+	case6Image.addEventListener("click", function () {
+		window.open("https://dribbble.com/shots/22847938-BookCourt-Website");
+	});
+}
+
+var case6Image = document.getElementById("case_10");
+if (case6Image) {
+	case6Image.addEventListener("click", function () {
+		window.open("https://dribbble.com/shots/22850192-BookCourt-Mobile-App");
+	});
+}
+
 var vk1 = document.getElementById("vk1");
 if (vk1) {
 	vk1.addEventListener("click", function () {
